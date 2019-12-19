@@ -1,0 +1,18 @@
+#gameboard {
+    height: 600px;
+    width: 600px;
+    background: blue;
+}
+.tile {
+    border: 1px solid black;
+    height: calc(100%/4 - 2px);
+    width: calc(100%/6 - 2px);
+    background-color: blue;
+    float: left;
+}
+
+/* .tile:hover {
+    background: url("/images/cross-hair.png");
+    height: 50px;
+    width: 50px;
+} */
